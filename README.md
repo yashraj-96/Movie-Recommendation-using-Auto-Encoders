@@ -10,6 +10,6 @@ The train and test data correspond to the base and text files with the name 'U1'
 
 Stacked Auto-Encoders are one of the most advanced technologies used in recommendation systems. They are implemented with a class which comprises of functions to build the architecture step by step. This project is implemented with PyTorch which is more powerfu as compared to Keras, so the training phase takes not more than 5 minutes. The testing phase is carried out with only one epoch over entire dataset of movies , which provieds a RMSE(Root Mean Square Error) loss of 0.94.
 
-Thus, if the model predicts a rating for a certain movie as 3 stars, the model would predict it as 2 - 2.5 stars with the stated loss which is quite acceptable and feasible.
+Thus, if a user gave a rating for a certain movie as 3 stars, the model would predict it as 2 - 2.5 stars with the stated loss which is quite acceptable and feasible.
 
-Thoroughly enjoyed implementing my first Stacked - Auto - Encoder project. :)
+Thoroughly enjoyed implementing my first Stacked - Auto - Encoder project.
